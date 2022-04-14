@@ -3,7 +3,7 @@ package ru.spbu.arts.java.oop.ascigraphics;
 public class TestDrawing {
     public static void main(String[] args) {
 
-        NewDrawing picture = new NewDrawing(20, 20, '♡');
+        Drawing picture = new Drawing(20, 20, '♡');
         picture.print();
         System.out.println();
 
