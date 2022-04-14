@@ -1,6 +1,6 @@
 package ru.spbu.arts.java.oop.ascigraphics;
 
-public class Drawing  {
+public class Drawing {
     private char[][] pic;
 
     Drawing(int x, int y, char z) {
