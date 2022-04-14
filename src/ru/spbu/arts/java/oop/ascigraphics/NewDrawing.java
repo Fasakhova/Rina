@@ -1,9 +1,9 @@
 package ru.spbu.arts.java.oop.ascigraphics;
 
-public class NewDrawing {
+public class Drawing {
     private char[][] pic;
 
-    NewDrawing(int x, int y, char z) {
+    Drawing(int x, int y, char z) {
         this.pic = new char[x][y];
         for (int i = 0; i < x; i++) {
             for (int j = 0; j < y; j++) {
